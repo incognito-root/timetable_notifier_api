@@ -1,0 +1,90 @@
+# Python-specific #
+###################
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.sqlite3
+*.log
+
+# Django-specific #
+###################
+# Ignore database files
+db.sqlite3
+*.sqlite3
+
+# Ignore static and media files (you may want to keep some versions)
+staticfiles/
+media/
+
+# Local Django settings (if you have local settings file)
+local_settings.py
+
+# Ignore migrations except __init__.py
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore environment variable files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python virtual environments #
+###############################
+/bin/
+/lib/
+/lib64/
+/include/
+/staticfiles/
+/logs/
+/opt/
+/mnt/
+/boot/
+/private/
+/public/
+*.env
+
+# macOS-specific #
+##################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux-specific #
+##################
+*~
+# Temporary files
+*swp
+*.swo
+
+# IDE-specific #
+################
+# PyCharm
+.idea/
+*.iml
+# VSCode
+.vscode/
+
+# Coverage reports
+##################
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Deployment files #
+####################
+*.log
+*.pot
+*.mo

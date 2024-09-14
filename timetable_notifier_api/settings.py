@@ -27,8 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'fallback-secret-key-for-local-
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '10.0.2.2',
-    'ayaan08.pythonanywhere.com'
+    '10.0.2.2'
 ]
 
 
